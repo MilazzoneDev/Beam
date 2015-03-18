@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2FD53E19D368490030E571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD53D19D368490030E571 /* main.m */; };
+		DA2FD54119D368490030E571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD54019D368490030E571 /* AppDelegate.m */; };
+		DA2FD54419D368490030E571 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD54319D368490030E571 /* GameScene.m */; };
+		DA2FD54619D368490030E571 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD54519D368490030E571 /* GameScene.sks */; };
+		DA2FD54919D368490030E571 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD54819D368490030E571 /* GameViewController.m */; };
+		DA2FD54C19D368490030E571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD54A19D368490030E571 /* Main.storyboard */; };
+		DA2FD54E19D368490030E571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD54D19D368490030E571 /* Images.xcassets */; };
+		DA2FD55119D368490030E571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD54F19D368490030E571 /* LaunchScreen.xib */; };
+		DA2FD55D19D368490030E571 /* BeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD55C19D368490030E571 /* BeamTests.m */; };
+		DA36907E19D3A3FE0042296A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36907D19D3A3FE0042296A /* Player.m */; };
+		DA36908F19DCDE570042296A /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36908619DCDE570042296A /* SKAction+SKTExtras.m */; };
+		DA36909019DCDE570042296A /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36908819DCDE570042296A /* SKEmitterNode+SKTExtras.m */; };
+		DA36909119DCDE570042296A /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36908A19DCDE570042296A /* SKNode+SKTExtras.m */; };
+		DA36909219DCDE570042296A /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36908C19DCDE570042296A /* SKTAudio.m */; };
+		DA36909319DCDE570042296A /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA36908E19DCDE570042296A /* SKTUtils.mm */; };
+		DA36909D19DD17790042296A /* AnalogControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36909C19DD17790042296A /* AnalogControl.m */; };
+		DA3690A019DD1B890042296A /* BeamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA36909F19DD1B890042296A /* BeamNode.m */; };
+		DA3690A319DF34400042296A /* ButtonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3690A219DF34400042296A /* ButtonControl.m */; };
+		DA3DFD4119E08F9200306CFF /* OptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DFD4019E08F9200306CFF /* OptionsButton.m */; };
+		DA3DFD4419E0AC7000306CFF /* OptionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DFD4319E0AC7000306CFF /* OptionsMenu.m */; };
+		DAC4308119E5DE2800CD8DC2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC4308019E5DE2800CD8DC2 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2FD55719D368490030E571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2FD53019D368490030E571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2FD53719D368490030E571;
+			remoteInfo = Beam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2FD53819D368490030E571 /* Beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2FD53C19D368490030E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2FD53D19D368490030E571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA2FD53F19D368490030E571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA2FD54019D368490030E571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA2FD54219D368490030E571 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DA2FD54319D368490030E571 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DA2FD54519D368490030E571 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA2FD54719D368490030E571 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DA2FD54819D368490030E571 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DA2FD54B19D368490030E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2FD54D19D368490030E571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA2FD55019D368490030E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA2FD55619D368490030E571 /* BeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2FD55B19D368490030E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2FD55C19D368490030E571 /* BeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeamTests.m; sourceTree = "<group>"; };
+		DA36907919D39F1C0042296A /* Beam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beam-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA36907C19D3A3FE0042296A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DA36907D19D3A3FE0042296A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DA36908519DCDE570042296A /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		DA36908619DCDE570042296A /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		DA36908719DCDE570042296A /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		DA36908819DCDE570042296A /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		DA36908919DCDE570042296A /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		DA36908A19DCDE570042296A /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		DA36908B19DCDE570042296A /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		DA36908C19DCDE570042296A /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		DA36908D19DCDE570042296A /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		DA36908E19DCDE570042296A /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		DA36909B19DD17790042296A /* AnalogControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogControl.h; sourceTree = "<group>"; };
+		DA36909C19DD17790042296A /* AnalogControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogControl.m; sourceTree = "<group>"; };
+		DA36909E19DD1B890042296A /* BeamNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamNode.h; sourceTree = "<group>"; };
+		DA36909F19DD1B890042296A /* BeamNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeamNode.m; sourceTree = "<group>"; };
+		DA3690A119DF34400042296A /* ButtonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonControl.h; sourceTree = "<group>"; };
+		DA3690A219DF34400042296A /* ButtonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonControl.m; sourceTree = "<group>"; };
+		DA3DFD3F19E08F9200306CFF /* OptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsButton.h; sourceTree = "<group>"; };
+		DA3DFD4019E08F9200306CFF /* OptionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsButton.m; sourceTree = "<group>"; };
+		DA3DFD4219E0AC7000306CFF /* OptionsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsMenu.h; sourceTree = "<group>"; };
+		DA3DFD4319E0AC7000306CFF /* OptionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenu.m; sourceTree = "<group>"; };
+		DAC4308019E5DE2800CD8DC2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2FD53519D368490030E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC4308119E5DE2800CD8DC2 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2FD55319D368490030E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2FD52F19D368490030E571 = {
+			isa = PBXGroup;
+			children = (
+				DAC4308019E5DE2800CD8DC2 /* iAd.framework */,
+				DA2FD53A19D368490030E571 /* Beam */,
+				DA2FD55919D368490030E571 /* BeamTests */,
+				DA2FD53919D368490030E571 /* Products */,
+				DA36907919D39F1C0042296A /* Beam-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2FD53919D368490030E571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FD53819D368490030E571 /* Beam.app */,
+				DA2FD55619D368490030E571 /* BeamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2FD53A19D368490030E571 /* Beam */ = {
+			isa = PBXGroup;
+			children = (
+				DA36908419DCDE570042296A /* SKTUtils */,
+				DA2FD53F19D368490030E571 /* AppDelegate.h */,
+				DA2FD54019D368490030E571 /* AppDelegate.m */,
+				DA2FD54519D368490030E571 /* GameScene.sks */,
+				DA2FD54719D368490030E571 /* GameViewController.h */,
+				DA2FD54819D368490030E571 /* GameViewController.m */,
+				DA3DFD4719E0AE2000306CFF /* Menus */,
+				DA3DFD4619E0ADF100306CFF /* Game Classes */,
+				DA3DFD4519E0ADD200306CFF /* Buttons */,
+				DA2FD54A19D368490030E571 /* Main.storyboard */,
+				DA2FD54D19D368490030E571 /* Images.xcassets */,
+				DA2FD54F19D368490030E571 /* LaunchScreen.xib */,
+				DA2FD53B19D368490030E571 /* Supporting Files */,
+			);
+			path = Beam;
+			sourceTree = "<group>";
+		};
+		DA2FD53B19D368490030E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FD53C19D368490030E571 /* Info.plist */,
+				DA2FD53D19D368490030E571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2FD55919D368490030E571 /* BeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FD55C19D368490030E571 /* BeamTests.m */,
+				DA2FD55A19D368490030E571 /* Supporting Files */,
+			);
+			path = BeamTests;
+			sourceTree = "<group>";
+		};
+		DA2FD55A19D368490030E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FD55B19D368490030E571 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA36908419DCDE570042296A /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DA36908519DCDE570042296A /* SKAction+SKTExtras.h */,
+				DA36908619DCDE570042296A /* SKAction+SKTExtras.m */,
+				DA36908719DCDE570042296A /* SKEmitterNode+SKTExtras.h */,
+				DA36908819DCDE570042296A /* SKEmitterNode+SKTExtras.m */,
+				DA36908919DCDE570042296A /* SKNode+SKTExtras.h */,
+				DA36908A19DCDE570042296A /* SKNode+SKTExtras.m */,
+				DA36908B19DCDE570042296A /* SKTAudio.h */,
+				DA36908C19DCDE570042296A /* SKTAudio.m */,
+				DA36908D19DCDE570042296A /* SKTUtils.h */,
+				DA36908E19DCDE570042296A /* SKTUtils.mm */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		DA3DFD4519E0ADD200306CFF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DA36909B19DD17790042296A /* AnalogControl.h */,
+				DA36909C19DD17790042296A /* AnalogControl.m */,
+				DA3DFD3F19E08F9200306CFF /* OptionsButton.h */,
+				DA3DFD4019E08F9200306CFF /* OptionsButton.m */,
+				DA3690A119DF34400042296A /* ButtonControl.h */,
+				DA3690A219DF34400042296A /* ButtonControl.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		DA3DFD4619E0ADF100306CFF /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FD54219D368490030E571 /* GameScene.h */,
+				DA2FD54319D368490030E571 /* GameScene.m */,
+				DA36907C19D3A3FE0042296A /* Player.h */,
+				DA36907D19D3A3FE0042296A /* Player.m */,
+				DA36909E19DD1B890042296A /* BeamNode.h */,
+				DA36909F19DD1B890042296A /* BeamNode.m */,
+			);
+			name = "Game Classes";
+			sourceTree = "<group>";
+		};
+		DA3DFD4719E0AE2000306CFF /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DFD4219E0AC7000306CFF /* OptionsMenu.h */,
+				DA3DFD4319E0AC7000306CFF /* OptionsMenu.m */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2FD53719D368490030E571 /* Beam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2FD56019D368490030E571 /* Build configuration list for PBXNativeTarget "Beam" */;
+			buildPhases = (
+				DA2FD53419D368490030E571 /* Sources */,
+				DA2FD53519D368490030E571 /* Frameworks */,
+				DA2FD53619D368490030E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beam;
+			productName = Beam;
+			productReference = DA2FD53819D368490030E571 /* Beam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2FD55519D368490030E571 /* BeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2FD56319D368490030E571 /* Build configuration list for PBXNativeTarget "BeamTests" */;
+			buildPhases = (
+				DA2FD55219D368490030E571 /* Sources */,
+				DA2FD55319D368490030E571 /* Frameworks */,
+				DA2FD55419D368490030E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2FD55819D368490030E571 /* PBXTargetDependency */,
+			);
+			name = BeamTests;
+			productName = BeamTests;
+			productReference = DA2FD55619D368490030E571 /* BeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2FD53019D368490030E571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Carl Milazzo";
+				TargetAttributes = {
+					DA2FD53719D368490030E571 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 9T8ERX89KK;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
+					DA2FD55519D368490030E571 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DA2FD53719D368490030E571;
+					};
+				};
+			};
+			buildConfigurationList = DA2FD53319D368490030E571 /* Build configuration list for PBXProject "Beam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2FD52F19D368490030E571;
+			productRefGroup = DA2FD53919D368490030E571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2FD53719D368490030E571 /* Beam */,
+				DA2FD55519D368490030E571 /* BeamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2FD53619D368490030E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2FD55119D368490030E571 /* LaunchScreen.xib in Resources */,
+				DA2FD54E19D368490030E571 /* Images.xcassets in Resources */,
+				DA2FD54619D368490030E571 /* GameScene.sks in Resources */,
+				DA2FD54C19D368490030E571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2FD55419D368490030E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2FD53419D368490030E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3DFD4119E08F9200306CFF /* OptionsButton.m in Sources */,
+				DA36909319DCDE570042296A /* SKTUtils.mm in Sources */,
+				DA2FD54919D368490030E571 /* GameViewController.m in Sources */,
+				DA2FD54119D368490030E571 /* AppDelegate.m in Sources */,
+				DA36909019DCDE570042296A /* SKEmitterNode+SKTExtras.m in Sources */,
+				DA3690A019DD1B890042296A /* BeamNode.m in Sources */,
+				DA2FD54419D368490030E571 /* GameScene.m in Sources */,
+				DA3DFD4419E0AC7000306CFF /* OptionsMenu.m in Sources */,
+				DA36909219DCDE570042296A /* SKTAudio.m in Sources */,
+				DA36908F19DCDE570042296A /* SKAction+SKTExtras.m in Sources */,
+				DA36909119DCDE570042296A /* SKNode+SKTExtras.m in Sources */,
+				DA2FD53E19D368490030E571 /* main.m in Sources */,
+				DA3690A319DF34400042296A /* ButtonControl.m in Sources */,
+				DA36909D19DD17790042296A /* AnalogControl.m in Sources */,
+				DA36907E19D3A3FE0042296A /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2FD55219D368490030E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2FD55D19D368490030E571 /* BeamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2FD55819D368490030E571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2FD53719D368490030E571 /* Beam */;
+			targetProxy = DA2FD55719D368490030E571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2FD54A19D368490030E571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2FD54B19D368490030E571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2FD54F19D368490030E571 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2FD55019D368490030E571 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2FD55E19D368490030E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA2FD55F19D368490030E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2FD56119D368490030E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Beam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA2FD56219D368490030E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Beam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beam-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA2FD56419D368490030E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/Beam";
+			};
+			name = Debug;
+		};
+		DA2FD56519D368490030E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/Beam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2FD53319D368490030E571 /* Build configuration list for PBXProject "Beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2FD55E19D368490030E571 /* Debug */,
+				DA2FD55F19D368490030E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2FD56019D368490030E571 /* Build configuration list for PBXNativeTarget "Beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2FD56119D368490030E571 /* Debug */,
+				DA2FD56219D368490030E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2FD56319D368490030E571 /* Build configuration list for PBXNativeTarget "BeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2FD56419D368490030E571 /* Debug */,
+				DA2FD56519D368490030E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2FD53019D368490030E571 /* Project object */;
+}
